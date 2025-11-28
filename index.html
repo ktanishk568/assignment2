@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Student Timetable</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse; 
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50; 
+            color: white;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; 
+        }
+        
+        .time-slot {
+            font-weight: bold;
+            background-color: #e0f7fa; 
+            color: #00796b;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Timetable - Weekly Schedule</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time Slot</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td class="time-slot">8:00 - 9:00</td>
+                <td>Mathematics</td>
+                <td>Science</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Art</td>
+            </tr>
+            <tr>
+                <td class="time-slot">9:00 - 10:00</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+                <td>Mathematics</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+            </tr>
+            <tr>
+                <td class="time-slot">10:00 - 11:00</td>
+                <td>Break / Study</td>
+                <td>Break / Study</td>
+                <td>Break / Study</td>
+                <td>Break / Study</td>
+                <td>Break / Study</td>
+            </tr>
+            <tr>
+                <td class="time-slot">11:00 - 12:00</td>
+                <td>English</td>
+                <td>Geography</td>
+                <td>Biology</td>
+                <td>Computer Science</td>
+                <td>P.E.</td>
+            </tr>
+            <tr>
+                <td class="time-slot">12:00 - 1:00</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+            </tr>
+            <tr>
+                <td class="time-slot">1:00 - 2:00</td>
+                <td>Literature</td>
+                <td>Economics</td>
+                <td>Art</td>
+                <td>Music</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <td class="time-slot">2:00 - 3:00</td>
+                <td>Elective</td>
+                <td>Debate Club</td>
+                <td>Library</td>
+                <td>Elective</td>
+                <td>Team Project</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="6">Schedule is subject to change. Please check daily announcements.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
